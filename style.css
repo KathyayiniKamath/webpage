@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital@1&display=swap');
+
 *{
     padding: 0;
     margin: 0;
@@ -6,10 +6,11 @@
 }
 body{
     height: 100vh;
-    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(bday.gif);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+   
+        background-image: url("bday.jpg");
+      
+      
+   
 }
 .container{
     perspective: 1000px;
@@ -77,15 +78,15 @@ body{
 {
     top:-110px;
     z-index: -1;
-    background-color: rgba(255, 127, 80, 0.86);
+    background-color: rgba(255, 127, 80, 0.777);
 }
 .frames:nth-child(2){
-    background-color: rgba(218, 165, 32, 0.817);
+    background-color: rgba(218, 165, 32, 0.748);
 }
 .frames:nth-child(3)
 {
     top:100px;
-    background-color: rgba(222, 184, 135, 0.899);
+    background-color: rgba(222, 184, 135, 0.753);
 }
 .birthdayCard {
     position: relative;
