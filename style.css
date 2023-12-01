@@ -5,10 +5,11 @@
     font-family: 'Bodoni Moda', serif;
 }
 body{
-    height: 100vh;
+   
    
         background-image: url("bday.jpg");
-      
+      background-repeat: no-repeat;
+    background-size: cover;
       
    
 }
